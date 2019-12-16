@@ -40,7 +40,7 @@ def naming_system
      }
    }
  }
-  portion_1
+  naming_system
   # Remember:
   #  Kingdom
   #  Phylum
