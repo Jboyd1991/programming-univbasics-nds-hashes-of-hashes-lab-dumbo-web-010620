@@ -31,25 +31,30 @@
 # }
 
 def naming_system
-  portion_1 = {
-    :label => "Kingdom", 
-      :sub_category => {
-        :label => "Phylum", 
-          :sub_category => {
-              :label => "Class", 
-            :sub_category => }
-    }
-  }
-  
-  portion_2 = {
+ family = {
   :label => "Family",
   	  :sub_category => {
   	    :label => "Genus",
   	    :sub_category => {
   	        :label => "Species",
-  	  :sub_category => nil}
-  	  }
+  	  :sub_category => nil
+      }
     }
   }
- 
-end
+
+   order = {
+   :label => "Order", 
+   :sub_category => family
+ }
+    domain = {
+  :label => "Kingdom",
+   :sub_category => {
+     :label => "Phylum",
+     :sub_category => {
+       :label => "Class",
+        :sub_category => order 
+    }
+  }
+}
+    domain
+  end
