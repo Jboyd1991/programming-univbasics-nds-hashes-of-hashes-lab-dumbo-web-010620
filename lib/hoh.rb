@@ -46,7 +46,7 @@ def naming_system
    :label => "Order", 
    :sub_category => family
  }
-    domain = {
+    kingdom = {
   :label => "Kingdom",
    :sub_category => {
      :label => "Phylum",
@@ -56,5 +56,5 @@ def naming_system
     }
   }
 }
-    domain
+    kingdom
   end
