@@ -32,6 +32,16 @@
 
 def naming_system
   portion_1 = {
+    :label => "Kingdom", 
+      :sub_category => {
+        :label => "Phylum", 
+          :sub_category => {
+              :label => "Class", 
+            :sub_category => nil}
+    }
+  }
+  
+  portion_2 = {
   :label => "Family",
   	  :sub_category => {
   	    :label => "Genus",
@@ -39,8 +49,8 @@ def naming_system
   	        :label => "Species",
   	  :sub_category => nil}
   	  }
-  	}
-
+    }
+  }
   # Remember:
   #  Kingdom
   #  Phylum
