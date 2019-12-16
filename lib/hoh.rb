@@ -31,7 +31,7 @@
 # }
 
 def naming_system
-  family = {
+  portion_1 = {
   :label => "Family",
   	  :sub_category => {
   	    :label => "Genus",
